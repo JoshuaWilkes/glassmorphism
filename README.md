@@ -1,59 +1,42 @@
-This project was bootstrapped with
-[Create React App](https://github.com/facebook/create-react-app).
+<p align="center"><img src="https://iamzero.dev/img/logo-boxed.svg" height="80" /></p>
 
-## Available Scripts
+<h1 align="center">IAM Zero</h1>
+<p align="center">Identity & Access Management simplified and secure.</p>
 
-In the project directory, you can run:
+<p align="center">
+<a align="center" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fiamzero.dev&text=IAM%20Zero%20simplifies%20cloud%20permissions%20for%20development%20teams"><img src="https://img.shields.io/twitter/url/https/github.com/tterb/hyde.svg?style=social" alt="tweet" /></a>
+<a href="https://join.slack.com/t/commonfatecommunity/shared_invite/zt-q4m96ypu-_gYlRWD3k5rIsaSsqP7QMg"><img src="https://img.shields.io/badge/slack-iamzero-1F72FE.svg?logo=slack" alt="slack" /></a>
+</p>
 
-### `yarn start`
+<p align="center">
+    <a href="https://iamzero.dev/docs/getting-started">🚀 Get Started</a> |
+    <a href="https://iamzero.dev/docs/support">📖 Support</a>
+</p>
 
-Runs the app in the development mode.<br /> Open
-[http://localhost:3000](http://localhost:3000) to view it in the browser.
+<a href="https://iamzero.dev" alt="visit the IAM Zero website">
+<img src="https://iamzero.dev/demo.gif">
+</a>
 
-The page will reload if you make edits.<br /> You will also see any lint errors
-in the console.
+<br/>
 
-### `yarn test`
+## What is IAM Zero?
 
-Launches the test runner in the interactive watch mode.<br /> See the section
-about
-[running tests](https://facebook.github.io/create-react-app/docs/running-tests)
-for more information.
+IAM Zero detects identity and access management issues and automatically suggests least-privilege policies. It does this by capturing errors in applications you build or commands that you run which use. By detecting the error and matching it against our Access Advisory lists IAM Zero can instantly provide a least-privilege policy recommendation, customised to your cloud environment.
 
-### `yarn build`
+IAM Zero currently works for AWS but our roadmap includes other cloud platforms like GCP, Azure, and Kubernetes.
 
-Builds the app for production to the `build` folder.<br /> It correctly bundles
-React in production mode and optimizes the build for the best performance.
+## Documentation
 
-The build is minified and the filenames include the hashes.<br /> Your app is
-ready to be deployed!
+Get started by [reading our documentation](https://iamzero.dev/docs/getting-started).
 
-See the section about
-[deployment](https://facebook.github.io/create-react-app/docs/deployment) for
-more information.
+## Contributing
 
-### `yarn eject`
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for information on how to contribute. We welcome all contributors - [join our Slack](https://join.slack.com/t/commonfatecommunity/shared_invite/zt-q4m96ypu-_gYlRWD3k5rIsaSsqP7QMg) to discuss the project!
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Security
 
-If you aren’t satisfied with the build tool and configuration choices, you can
-`eject` at any time. This command will remove the single build dependency from
-your project.
+See [SECURITY.md](./SECURITY.md) for security information. You can view our full security documentation on the [IAM Zero website](https://iamzero.dev/docs/security).
 
-Instead, it will copy all the configuration files and the transitive
-dependencies (webpack, Babel, ESLint, etc) right into your project so you have
-full control over them. All of the commands except `eject` will still work, but
-they will point to the copied scripts so you can tweak them. At this point
-you’re on your own.
+## Acknowledgements
 
-You don’t have to ever use `eject`. The curated feature set is suitable for
-small and middle deployments, and you shouldn’t feel obligated to use this
-feature. However we understand that this tool wouldn’t be useful if you couldn’t
-customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the
-[Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Thankyou to [Ian Mckay](https://github.com/iann0036/iamlive) and the [Netflix ConsoleMe team](https://github.com/Netflix/consoleme) for providing valuable insights which have formed the basis of IAM Zero's design.
